@@ -3,7 +3,7 @@ description: "Welcome to the official website for the NT Stadium, driving change
 navigation: false
 hero:
   title: "Empower Darwin's Future: join the Stadium and the 20th AFL License Bid!"
-  description: Discover our strategy insights, aspirations, and breaking news with free subscriptions for all member enrolments.
+  description: Discover our strategy insights, aspirations, and breaking news with free email subscriptions for all member enrolments.
   orientation: horizontal
   align: left
   headline:
@@ -25,43 +25,33 @@ hero:
   image:
     src: '/images/members-stand.jpg'
 features:
-  title: 'All-in-one docs template'
+  title: 'Bridging the divide between the north and the south'
   links:
-    - label: 'Explore Nuxt UI Pro'
-      icon: 'i-simple-icons-nuxtdotjs'
+    - label: 'Add your support for a stadium'
+      icon: 'i-heroicons-document-plus-20-solid'
       trailingIcon: 'i-heroicons-arrow-right-20-solid'
       color: 'gray'
       to: 'https://ui.nuxt.com/pro'
       target: '_blank'
       size: lg
   items:
-    - title: 'Nuxt 3'
-      description: 'Powered by Nuxt 3 for optimal performances and SEO.'
-      icon: 'i-simple-icons-nuxtdotjs'
+    - title: 'Expanded AFL Coverage'
+      description: 'Featuring a new team set in a landscape of Australias outback.  10 extra games with a backstory unlike any others.'
+      icon: 'i-heroicons-radio'
       to: 'https://nuxt.com'
       target: '_blank'
-    - title: 'Markdown'
-      description: 'Write your pages with MDC thanks to Nuxt Content.'
-      icon: 'i-simple-icons-markdown'
+    - title: 'Empowering Indigenous Talent'
+      description: 'Removing the disadvantages between country to city, fostering better pathways for indigenous sports stars.'
+      icon: 'i-heroicons-stop-circle'
       to: 'https://content.nuxt.com'
       target: '_blank'
-    - title: 'Nuxt UI'
-      description: 'Offers a very large set of full customizable components.'
-      icon: 'i-heroicons-sparkles-20-solid'
+    - title: 'Local culture exemplified'
+      description: 'A welcome to country for all, guided with the support of Larrakia peoples.'
+      icon: 'i-heroicons-finger-print'
       to: 'https://ui.nuxt.com'
       target: '_blank'
-    - title: 'TypeScript'
-      description: 'A fully typed development experience.'
-      icon: 'i-simple-icons-typescript'
-      to: 'https://www.typescriptlang.org'
-      target: '_blank'
-    - title: 'Nuxt Studio'
-      description: 'Supported by Nuxt Studio for fast updates and previews.'
-      icon: 'i-simple-icons-nuxtdotjs'
-      to: 'https://nuxt.studio'
-      target: '_blank'
-    - title: 'Search'
-      description: 'A full-text search modal empowered by Fuse.js.'
-      icon: 'i-heroicons-magnifying-glass-20-solid'
+    - title: 'Iconic by distinction'
+      description: 'A stadium fitting our location, our City and our Peoples of the North.  Of us, for us all.'
+      icon: 'i-heroicons-shield-exclamation'
       to: 'https://ui.nuxt.com/pro/components/docs/docs-search'
       target: '_blank'
