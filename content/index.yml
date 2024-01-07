@@ -1,30 +1,29 @@
-title: 'Nuxt UI Pro - Docs template'
-description: 'Welcome to Nuxt UI Pro documentation template.'
+title: "NT Stadium - official supporters website"
+description: "Welcome to the official website for the NT Stadium, driving change through Indigenous empowerment and community development in Darwin, Northern Territory. Join us in building an iconic stadium uniting sports, culture, and livability enhancements for a brighter future."
 navigation: false
 hero:
-  title: 'Build your docs in seconds'
-  description: 'Create your documentation in seconds with this template!'
+  title: "Empower Darwin's Future: join the Stadium and the 20th AFL License Bid!"
+  description: Discover our strategy insights, aspirations, and breaking news with free subscriptions for all member enrolments.
   orientation: horizontal
+  align: left
   headline:
-    label: Made with Nuxt UI Pro
+    label: Official site for NT supporters & fans
     to: https://ui.nuxt.com/pro
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
-      icon: i-heroicons-arrow-right-20-solid
+    - label: Members here
+      icon: i-heroicons-arrow-left-on-rectangle-20-solid
       trailing: true
       to: '/getting-started'
       size: lg
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: Newsroom
+      icon: i-heroicons-clipboard-document-list-solid
       size: lg
       color: gray
       to: https://github.com/nuxt-ui-pro/docs
       target: _blank
-  code: |
-    ```bash [Terminal]
-    npx nuxi init -t github:nuxt-ui-pro/docs
-    ```
+  image:
+    src: '/images/members-stand.jpg'
 features:
   title: 'All-in-one docs template'
   links:

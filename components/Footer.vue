@@ -9,8 +9,6 @@ const { footer } = useAppConfig()
     </template>
 
     <template #right>
-      <UColorModeButton v-if="footer?.colorMode" />
-
       <template v-if="footer?.links">
         <UButton
           v-for="(link, index) of footer?.links"
@@ -18,6 +16,8 @@ const { footer } = useAppConfig()
           v-bind="{ color: 'gray', variant: 'ghost', ...link }"
         />
       </template>
+
+      <UColorModeButton v-if="footer?.colorMode" />
     </template>
   </UFooter>
 </template>

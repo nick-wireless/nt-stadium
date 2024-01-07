@@ -28,8 +28,8 @@ export default defineAppConfig({
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
-    colorMode: false,
+    credits: 'Copyright © 2024',
+    colorMode: true,
     links: [{
       icon: 'i-simple-icons-nuxtdotjs',
       to: 'https://nuxt.com',

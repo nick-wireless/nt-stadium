@@ -17,9 +17,14 @@ defineOgImage({
 
 <template>
   <div>
-    <ULandingHero v-if="page.hero" v-bind="page.hero">
+    <ULandingSection
+      :title="page.hero.title"
+      :description="page.hero.description"
+      :align="page.hero.align"
+      :ui="{wrapper: 'pt-24 sm:pt-24'}"
+    >
       <template #headline>
-        <UBadge v-if="page.hero.headline" variant="subtle" size="lg" class="relative rounded-full font-semibold">
+        <UBadge v-if="page.hero.headline" variant="subtle" size="lg" class="relative mb-6 rounded-full font-semibold">
           <NuxtLink :to="page.hero.headline.to" target="_blank" class="focus:outline-none" tabindex="-1">
             <span class="absolute inset-0" aria-hidden="true" />
           </NuxtLink>
@@ -29,18 +34,24 @@ defineOgImage({
           <UIcon v-if="page.hero.headline.icon" :name="page.hero.headline.icon" class="ml-1 w-4 h-4 pointer-events-none" />
         </UBadge>
       </template>
-
-      <template #title>
-        <MDC :value="page.hero.title" />
+      <template #links>
+        <UButton 
+          v-for="link in page.hero.links" 
+          :key="link.label" 
+          :label="link.label"
+          :icon="link.icon"
+          :trailing="link.trailing" 
+          :to="link.to" 
+          :variant="link.variant" 
+          :size="link.size" 
+          :color="link.color"
+          class=" px-6"
+        />
       </template>
-
-      <MDC :value="page.hero.code" tag="pre" class="prose prose-primary dark:prose-invert mx-auto" />
-    </ULandingHero>
-
-    <ULandingSection :title="page.features.title" :links="page.features.links">
-      <UPageGrid>
-        <ULandingCard v-for="(item, index) of page.features.items" :key="index" v-bind="item" />
-      </UPageGrid>
-    </ULandingSection>
+      <img
+        :src="page.hero.image.src"
+        class="w-full  max-h-[400px] object-cover rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+      >
+    </ulandingsection>
   </div>
 </template>
