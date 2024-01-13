@@ -14,14 +14,14 @@ export default defineAppConfig({
   },
   header: {
     logo: {
-      alt: '',
-      light: '',
+      alt: 'NT Stadium',
+      light: 'logo-light.svg',
       dark: ''
     },
-    search: true,
+    search: false,
     colorMode: true,
     links: [{
-      icon: 'i-simple-icons-github',
+      icon: 'i-simple-icons-linkedin',
       to: 'https://github.com/nuxt-ui-pro/docs',
       target: '_blank',
       'aria-label': 'Docs template on GitHub'
