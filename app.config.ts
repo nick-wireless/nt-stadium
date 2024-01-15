@@ -20,12 +20,6 @@ export default defineAppConfig({
     },
     search: false,
     colorMode: true,
-    links: [{
-      icon: 'i-simple-icons-linkedin',
-      to: 'https://github.com/nuxt-ui-pro/docs',
-      target: '_blank',
-      'aria-label': 'Docs template on GitHub'
-    }]
   },
   footer: {
     credits: 'Copyright © 2024',

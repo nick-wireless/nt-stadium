@@ -62,7 +62,7 @@ defineOgImage({
       :links="page.stages.links"
     >
       <img
-        src="https://picsum.photos/640/360"
+        src="/images/Nov23_0119.jpg"
         class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
       >
       <ULandingCard v-for="(item, index) of page.stages.items" :key="index" v-bind="item" />
