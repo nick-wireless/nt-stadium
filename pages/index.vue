@@ -68,7 +68,6 @@ defineOgImage({
       <ULandingCard v-for="(item, index) of page.stages.items" :key="index" v-bind="item" />
     </ULandingSection>
 
-
     <ULandingSection :title="page.features.title" :links="page.features.links">
       <UPageGrid>
         <ULandingCard v-for="(item, index) of page.features.items" :key="index" v-bind="item" />

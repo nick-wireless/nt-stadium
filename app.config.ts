@@ -25,22 +25,12 @@ export default defineAppConfig({
     credits: 'Copyright © 2024',
     colorMode: true,
     links: [{
-      icon: 'i-simple-icons-nuxtdotjs',
-      to: 'https://nuxt.com',
+      icon: 'i-heroicons-envelope-20-solid ',
+      to: 'mailto:info@ntstadium.com.au',
       target: '_blank',
-      'aria-label': 'Nuxt Website'
+      'aria-label': 'Contact Us'
     }, {
-      icon: 'i-simple-icons-discord',
-      to: 'https://discord.com/invite/ps2h6QT',
-      target: '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      icon: 'i-simple-icons-x',
-      to: 'https://x.com/nuxt_js',
-      target: '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      icon: 'i-simple-icons-github',
+      icon: 'i-simple-icons-linkedin',
       to: 'https://github.com/nuxt/ui',
       target: '_blank',
       'aria-label': 'Nuxt UI on GitHub'
@@ -50,21 +40,20 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',
       links: [{
-        icon: 'i-heroicons-star',
-        label: 'Star on GitHub',
+        icon: 'i-heroicons-book-open',
+        label: 'Subscribe',
         to: 'https://github.com/nuxt/ui',
         target: '_blank',
       }, {
-        icon: 'i-heroicons-book-open',
-        label: 'Nuxt UI Pro docs',
+        icon: 'i-heroicons-trophy',
+        label: 'Sponsor project',
         to: 'https://ui.nuxt.com/pro/guide',
         target: '_blank',
       }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
+        icon: 'i-heroicons-ticket',
+        label: 'Join next event',
+        to: 'https://ui.nuxt.com/pro/guide',
         target: '_blank',
       }]
     }
