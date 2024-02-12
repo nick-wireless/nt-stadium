@@ -48,10 +48,18 @@ defineOgImage({
           class=" px-6 mt-2 sm:mt-0"
         />
       </template>
-      <img
-        :src="page.hero.image.src"
-        class="w-full  max-h-[400px] object-cover rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
-      >
+      <div class="relative">
+        <img
+          :src="page.hero.image.src"
+          class="w-full  max-h-[400px] object-cover rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        >
+        <div class="absolute inset-0 bg-black opacity-50" />
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="text-gray-300 text-2xl font-semibold tracking-wider shadow-lg">
+            (design pending...)
+          </div>
+        </div>
+      </div>
     </ULandingSection>
 
     <ULandingSection

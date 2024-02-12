@@ -8,7 +8,7 @@ hero:
   align: left
   headline:
     label: Official site for NT supporters & fans
-    to: https://ui.nuxt.com/pro
+    to: /members
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Members here
@@ -23,7 +23,7 @@ hero:
       to: '/newsroom/blog'
       target: _blank
   image:
-    src: '/images/members-stand.jpg'
+    src: '/images/afl-ground.jpg'
 stages:
   headline: Stage 01/05
   title: "Imagining Melbourne's sporting Culture in Darwin"
