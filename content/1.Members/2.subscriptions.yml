@@ -1,6 +1,6 @@
 
 title: Subscriptions
-description: We are beginning the journey of NT Stadium with our members in mind.  Choose a subscription, to join our community.
+description: We are beginning the journey of NT Stadium with our members in mind.  Choose a category of subscription, to join our community.
 navigation.icon: i-heroicons-credit-card
 hero:
   title: Memberships
@@ -12,10 +12,11 @@ plans:
     price:
       month: $9.9
       year: $0.0
+    cycle: forever
     align: top
     button:
       label: Get Started
-      color: white
+      color: gray
     features:
       - Direct news updates
       - Input on Stadium Name
@@ -23,29 +24,33 @@ plans:
       - Priority waitlist for opening game
 
   - title: Supporter
+    badge:
+      label: Most popular
     description: A standard plan for small teams.
     price:
       month: $19.9
       year: $55.0
+    cycle: once
     highlight: true
     align: top
     button:
       label: Get Started
-      color: black
+      color: green
     features:
       - Enthusiasts membership benefits plus
       - Priority seating allocation and ticket allocation in first year
-      - Prepament allocation to opening game and
-      - Priority invite for opening ceremony
+      - Priority invite for opening ceremony and
+      - Prepament allocation to opening game
   - title: Founding Member
     description: A foundation membership provides early access to any membership activities we may create
     price:
       month: $29.9
       year: $85.0
+    cycle: /year
     align: top
     button:
       label: Get Started
-      color: white
+      color: gray
     features:
       - Supporter membership benefits plus
       - Priority invites for feedback & forums

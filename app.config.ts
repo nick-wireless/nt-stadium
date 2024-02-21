@@ -43,18 +43,18 @@ export default defineAppConfig({
       links: [{
         icon: 'i-heroicons-book-open',
         label: 'Subscribe',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank',
+        to: '/members/subscriptions',
+        // target: '_blank',
       }, {
         icon: 'i-heroicons-trophy',
         label: 'Sponsor project',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank',
+        to: '/members/corporates',
+        // target: '_blank',
       }, {
         icon: 'i-heroicons-ticket',
         label: 'Join next event',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank',
+        to: '/members/roundtables',
+        // target: '_blank',
       }]
     }
   }

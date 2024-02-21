@@ -33,7 +33,7 @@ const isSupporter = computed(() => {
 
     <UContainer>
       <UPricingGrid>
-        <UPricingCard v-for="(plan, index) in page.plans" :key="index" v-bind="plan" :price="isYearly ? plan.price.year : plan.price.month" :cycle="index!==2 ? 'once' : '/year'">
+        <UPricingCard v-for="(plan, index) in page.plans" :key="index" v-bind="plan" :price="isYearly ? plan.price.year : plan.price.month" ">
           {{ isSupporter.value }}
         </UPricingCard>
       </UPricingGrid>
