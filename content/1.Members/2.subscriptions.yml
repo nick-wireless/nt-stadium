@@ -1,0 +1,80 @@
+
+title: Subscriptions
+description: We are beginning the journey of NT Stadium with our members in mind.  Choose a subscription, to join our community.
+navigation.icon: i-heroicons-credit-card
+hero:
+  title: Memberships
+  description: We are beginning the journey of NT Stadium with our members in mind.  Choose a subscription and join our community.
+  align: center
+plans:
+  - title: Enthusiast
+    description: Sign-up for free email updates 
+    price:
+      month: $9.9
+      year: $0.0
+    align: top
+    button:
+      label: Get Started
+      color: white
+    features:
+      - Direct news updates
+      - Input on Stadium Name
+      - Invite list for membership
+      - Priority waitlist for opening game
+
+  - title: Supporter
+    description: A standard plan for small teams.
+    price:
+      month: $19.9
+      year: $55.0
+    highlight: true
+    align: top
+    button:
+      label: Get Started
+      color: black
+    features:
+      - Enthusiasts membership benefits plus
+      - Priority seating allocation and ticket allocation in first year
+      - Prepament allocation to opening game and
+      - Priority invite for opening ceremony
+  - title: Founding Member
+    description: A foundation membership provides early access to any membership activities we may create
+    price:
+      month: $29.9
+      year: $85.0
+    align: top
+    button:
+      label: Get Started
+      color: white
+    features:
+      - Supporter membership benefits plus
+      - Priority invites for feedback & forums
+      - Medalian number choice (by order of subscriptions)
+      - Prepayment to members annual subscription (and / or)
+      - Prepayment to opening ceremony (and / or)
+      - Prepayment to opening game
+logos:
+  title: Supported by NT Sporting Associations
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-heroku
+    - i-simple-icons-netlify
+    - i-simple-icons-vercel
+    - i-simple-icons-cloudflare
+faq:
+  title: Frequently asked questions
+  description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
+  items:
+    - label: Is this a secure service?
+      content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
+      defaultOpen: true
+    - label: How can I cancel my subscription?
+      content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
+    - label: How does the free trial work?
+      content: Quis officia commodo magna eu qui aliquip duis.
+    - label: Can I switch plans later?
+      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
+    - label: Do you offer refunds?
+      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
+    - label: Do you offer support?
+      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
