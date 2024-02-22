@@ -86,8 +86,10 @@ faq:
     - label: As a Supporter can I waitlist for the opening ceremony instead of the opening game?
       content: No.  Only Founding Members can choose how to allocate their membership.  As a Supporter we consider you a sports fan.
     - label: What is meant by priority seating?
-      content: In modern stadiums there are different seating environments designed for teh stadium.  These including members and priority sections.  All tickets will have seat identification and the priority seats will be the best seat allocation.  Priority seating does not necessarily mean access to the Members section, which may be a different membership level again.
+      content: In modern stadiums there are different seating environments designed for the stadium.  These including members and priority sections.  All tickets will have seat identification and the priority seats will be the best seat allocation.  Priority seating does not necessarily mean access to the Members section, which may be a different membership level again.
     - label: What is meant by priority ticket allocation?
-      content: This means you have early access to the tickets.  This should give you the upper hand in securing seats if there are games that are at risk of selling out.
+      content: This means you will be the first to have access to any tickets sold at the stadium.  This should give you the upper hand in securing seats if there are games that are at risk of selling out.
+    - label: Is my membership transferrable?
+      content: No.  Memberships are unique, we will use the email address of the subscription as the unique identifier that will give access to your privledges.
     - label: What is if I am no longer living in Darwin when the stadium is finished?
       content: After we have opened, you will be sent an invite.  If you at that time you are unable to attend for any reason, we will return your prepayment.
