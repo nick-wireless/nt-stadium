@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// import { withoutTrailingSlash } from 'ufo'
+
 const { data: page } = await useAsyncData('subscriptions', () => queryContent('/members/subscriptions').findOne())
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
@@ -21,6 +23,14 @@ const isYearly = ref(true)
 const isSupporter = computed(() => {
   page.value.title = 'Supporter'
 })
+
+// const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
+//   .where({ _extension: 'md', navigation: { $ne: false } })
+//   .only(['title', 'description', '_path'])
+//   .findSurround(withoutTrailingSlash(route.path))
+// )
+
+
 </script>
 
 <template>
@@ -46,7 +56,10 @@ const isSupporter = computed(() => {
     </ULandingSection>
 
     <ULandingSection :title="page.faq.title" :description="page.faq.description">
-      <ULandingFAQ :items="page.faq.items" multiple default-open class="max-w-4xl mx-auto" />
+      <ULandingFAQ :items="page.faq.items" multiple class="max-w-4xl mx-auto" />
     </ULandingSection>
+
+    <!-- <hr v-if="surround?.length">
+    <UDocsSurround :surround="surround" /> -->
   </div>
 </template>
