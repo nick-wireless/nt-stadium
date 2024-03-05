@@ -19,8 +19,9 @@ plans:
       color: gray
     features:
       - Direct news updates
-      - Input on Stadium Name
-      - Invite list for stadium membership
+      - Input on Stadium name
+      - Online input to Stadium designs
+      - Invite list for Stadium membership
       - Priority waitlist for opening game
 
   - title: Supporter
@@ -71,7 +72,7 @@ faq:
   description: These subscriptions relate to the NT Stadium only.  Read below to answer any quick questions or to understand more about how we are setting up the supporter and membership categories.
   items:
     - label: Who qualifies for child memberships?
-      content: Children aged 16 or younger are eligible for child pricing on tickets. Once they reach 17 years old, they transition to adult pricing. When subscribing, please ensure you select the appropriate pricing option based on your child's age.
+      content: At the time of sign-up, children aged 16 or younger are eligible for child pricing on the first season's tickets. Thereafter, if 17+ years old, they transition to adult pricing. When subscribing, please ensure you select the appropriate pricing option based on your child's age today.
     - label: What does direct news updates mean?
       content: You will receive email updates of news direct to your inbox.  Enjoy the confidence you will hear direct from the organisers and be the first to know any breaking developments.
     - label: What is my membership money used for?

@@ -69,10 +69,6 @@ defineOgImage({
       :align="page.stages.align"
       :links="page.stages.links"
     >
-      <!-- <img
-        src="/images/Nov23_0119.jpg"
-        class="w-full rounded-md shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
-      > -->
       <div class=" relative h-[45vh] rounded-md overflow-clip ring-1 ring-gray-300 dark:ring-gray-600 ">
         <img
           class=" absolute w-full h-full object-cover "
