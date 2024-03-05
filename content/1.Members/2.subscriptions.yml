@@ -1,6 +1,6 @@
 
 title: Subscriptions
-description: We are beginning the journey of NT Stadium with our members in mind.  Choose a category of subscription, to join our community.
+description: We are beginning the journey of NT Stadium with our members in mind.  Choose a category of subscription, to join our journey and community.
 navigation.icon: i-heroicons-credit-card
 hero:
   title: Memberships
@@ -10,8 +10,8 @@ plans:
   - title: Enthusiast
     description: Sign-up for free email updates 
     price:
-      month: $9.9
-      year: $0.0
+      adult: $0.0
+      child: $0.0
     cycle: forever
     align: top
     button:
@@ -28,8 +28,8 @@ plans:
       label: Most popular
     description: A standard plan for small teams.
     price:
-      month: $19.9
-      year: $55.0
+      adult: $55.0
+      child: $10.0
     cycle: once
     highlight: true
     align: top
@@ -44,8 +44,8 @@ plans:
   - title: Founding Member
     description: A foundation membership provides early access to any membership activities we may create
     price:
-      month: $29.9
-      year: $85.0
+      adult: $85.0
+      child: $20.0
     cycle: /year
     align: top
     button:
@@ -54,7 +54,7 @@ plans:
     features:
       - Supporter membership benefits plus
       - Priority invites for feedback & forums
-      - Medalian number choice (by order of subscriptions)
+      - Handpicked medalian number
       - Prepayment to members annual subscription (and / or)
       - Prepayment to opening ceremony (and / or)
       - Prepayment to opening game
@@ -70,9 +70,10 @@ faq:
   title: Frequently asked questions
   description: These subscriptions relate to the NT Stadium only.  Read below to answer any quick questions or to understand more about how we are setting up the supporter and membership categories.
   items:
+    - label: Who qualifies for child memberships?
+      content: Children aged 16 or younger are eligible for child pricing on tickets. Once they reach 17 years old, they transition to adult pricing. When subscribing, please ensure you select the appropriate pricing option based on your child's age.
     - label: What does direct news updates mean?
       content: You will receive email updates of news direct to your inbox.  Enjoy the confidence you will hear direct from the organisers and be the first to know any breaking developments.
-      defaultOpen: true
     - label: What is my membership money used for?
       content: Save for credit card processing fees and GST, we will hold the money in trust in the hope that together we will be successful in our mission.  If we are, the money will be allocated to one of the 20,000 seat tickets for the opening AFL game.
     - label: What will the opening game be?
@@ -89,7 +90,9 @@ faq:
       content: In modern stadiums there are different seating environments designed for the stadium.  These including members and priority sections.  All tickets will have seat identification and the priority seats will be the best seat allocation.  Priority seating does not necessarily mean access to the Members section, which may be a different membership level again.
     - label: What is meant by priority ticket allocation?
       content: This means you will be the first to have access to any tickets sold at the stadium.  This should give you the upper hand in securing seats if there are games that are at risk of selling out.
+    - label: What is meant by handpicked medalian number?
+      content: Membership numbers can feel lucky.  The first to enrol will get their choice of number, where available.
     - label: Is my membership transferrable?
-      content: No.  Memberships are unique, we will use the email address of the subscription as the unique identifier that will give access to your privledges.
+      content: No.  Memberships are unique, we will use the email address of the subscription as the unique identifier that will give access to your privledges.  Membership privages and medalian number order are non-transferable.
     - label: What is if I am no longer living in Darwin when the stadium is finished?
       content: After we have opened, you will be sent an invite.  If you at that time you are unable to attend for any reason, we will return your prepayment.

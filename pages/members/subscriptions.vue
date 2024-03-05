@@ -19,10 +19,9 @@ defineOgImage({
   description: page.value.description
 })
 
-const isYearly = ref(true)
-const isSupporter = computed(() => {
-  page.value.title = 'Supporter'
-})
+
+const isAdult = ref(true)
+
 
 // const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
 //   .where({ _extension: 'md', navigation: { $ne: false } })
@@ -36,16 +35,14 @@ const isSupporter = computed(() => {
 <template>
   <div v-if="page">
     <UPageHero v-bind="page.hero">
-      <!-- <template #links>
-        <UPricingToggle v-model="isYearly" class="w-48" />
-      </template> -->
+      <template #links>
+        <UPricingToggle v-model="isAdult" :left="'Child'" :right="'Adult'" class="w-48" />
+      </template> 
     </UPageHero>
 
     <UContainer>
       <UPricingGrid>
-        <UPricingCard v-for="(plan, index) in page.plans" :key="index" v-bind="plan" :price="isYearly ? plan.price.year : plan.price.month" ">
-          {{ isSupporter.value }}
-        </UPricingCard>
+        <UPricingCard v-for="(plan, index) in page.plans" :key="index" v-bind="plan" :price="isAdult ? plan.price.adult : plan.price.child" " />
       </UPricingGrid>
     </UContainer>
 

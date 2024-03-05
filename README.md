@@ -2,7 +2,10 @@
 
 # Outline of todo items for website:
 
-- [ ] Change splash image to have overlay & be full screen.
+- [ ] Consider navigation aids on the pay for membership page.
+- [ ] Review bug: my-5 or such applying to WorkCard.vue in completed-work.md.
+- [x] Adult vs Child display and rates.
+- [x] Change home page to have overlays on pictures.
 - [x] Change navigation to land in Progress, Newsroom and Members sections.
 - [x] Add about, for footer?
 
