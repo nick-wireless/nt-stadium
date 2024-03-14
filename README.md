@@ -1,8 +1,15 @@
 
 
+# Outline of items to seek help from Harlan:
+- [ ] Consider navigation aids on the pay for membership page.
+- [ ] Hookup to Klaviyo to Nuxt.
+- [ ] Hookup Stripe for payment for memberships.
+- [ ] Review / assist with Blog setup.
+
+
+
 # Outline of todo items for website:
 
-- [ ] Consider navigation aids on the pay for membership page.
 - [ ] Review bug: my-5 or such applying to WorkCard.vue in completed-work.md.
 - [x] Adult vs Child display and rates.
 - [x] Change home page to have overlays on pictures.
