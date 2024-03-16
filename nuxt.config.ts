@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    uiProLicence: '',
+    publicStudioTokens: ''
+  },
   extends: ['@nuxt/ui-pro'],
   modules: [
     '@nuxt/content',
@@ -8,7 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
     'nuxt-og-image',
-    "@nuxt/image"
+    '@nuxt/image'
   ],
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
