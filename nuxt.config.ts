@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     uiProLicence: '',
     publicStudioTokens: ''
   },
+  content: {
+    documentDriven: true
+  },
   extends: ['@nuxt/ui-pro'],
   modules: [
     '@nuxt/content',

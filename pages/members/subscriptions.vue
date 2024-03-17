@@ -19,9 +19,16 @@ defineOgImage({
   description: page.value.description
 })
 
-
 const isAdult = ref(true)
 
+// TODO:  Harlan... questions
+// I've implemented the 'next and prev' from the NuxtContent, by activating Document Driven mode.
+// This is a work around as I didn't know how to adapt the dynamic lookup below.
+// I note, this page is 'glitchy'.  It doesn't load automatically.  The URI of '/subsciptions' works, however not directly from menu.
+// Also, the page navigation on the surrounding pages ignores it.  I wonder the best approach here?
+
+const { prev, next } = useContent()
+const surroundingMenuItems = [ prev, next ]
 
 // const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent()
 //   .where({ _extension: 'md', navigation: { $ne: false } })
@@ -56,7 +63,6 @@ const isAdult = ref(true)
       <ULandingFAQ :items="page.faq.items" multiple class="max-w-4xl mx-auto" />
     </ULandingSection>
 
-    <!-- <hr v-if="surround?.length">
-    <UDocsSurround :surround="surround" /> -->
+    <UDocsSurround :surround="surroundingMenuItems" class=" px-6 pb-8 lg:pb-12 max-w-5xl mx-auto " />
   </div>
 </template>
